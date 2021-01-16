@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Otávio",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Parraga",
+  message: " Ciência de Dados | Machine Learning | Processamento de Linguagem Natural | Filosofia ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/Otavio-Parraga",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/otavio.parraga",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/otavioparraga/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/ot%C3%A1vio-parraga-435813181/",
     },
   ],
 };
@@ -50,11 +46,11 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  heading: "Sobre mim",
+  imageLink: require("../editable-stuff/eu.jpg"),
+  imageSize: 360,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Meu nome é Otávio Parraga, Mestrando em Ciência da Computação pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS) e bacharel em Sistemas de Informação pela PUCRS. Fascinado pelas áreas de Machine Learning e Inteligência Artificial, tendo bastante familiaridade com a aplicação de Deep Learning em problemas de Processamento de Linguagem Natural. Pesquisando atualmente sobre Bias em Modelos de Linguagem. Multi-instrumentista e filósofo nas horas vagas",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -65,10 +61,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Projetos Recentes",
+  gitHubUsername: "Otavio-Parraga", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["n-gram", "NIB-language-model", "CharRNN", "titanic_kaggle"],
 };
 
 // Leadership SECTION
@@ -79,12 +75,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/eu.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/eu.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -100,34 +96,31 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 80 },
+    { name: "SQL", value: 60 },
+    { name: "Machine Learning", value: 90 },
+    { name: "Processamento de Linguagem Nnatural", value: 90 },
+    { name: "Visão Computacional", value: 75},
+    { name: "Java", value: 30 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Colaboração", value: 90 },
+    { name: "Adaptabilidade", value: 80 },
+    { name: "Resolução de problemas", value: 80 },
+    { name: "Oraganização", value: 85 },
+    { name: "Criatividade", value: 90 },
+    { name: "Trabalho em Equipe", value: 85},
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Entre em contato!",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Para quaisquer oportunidades ou dúvidas acerca de Machine Learning ou tópicos relacionados, só entrar em contato pelo email :D",
+  email: "otavio.parraga@edu.pucrs.br",
+  telefone: "(51) 99585-9819"
 };
 
 // Blog SECTION
