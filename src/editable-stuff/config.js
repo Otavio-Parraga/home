@@ -97,11 +97,11 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 80 },
-    { name: "SQL", value: 60 },
+    { name: "Deep Learning", value: 80 },
     { name: "Machine Learning", value: 90 },
     { name: "Processamento de Linguagem Nnatural", value: 90 },
     { name: "Visão Computacional", value: 75},
-    { name: "Java", value: 30 },
+    { name: "Java", value: 50 },
   ],
   softSkills: [
     { name: "Colaboração", value: 90 },
