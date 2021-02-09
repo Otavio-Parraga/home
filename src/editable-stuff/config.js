@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Otávio",
   middleName: "",
   lastName: "Parraga",
-  message: " Ciência de Dados | Machine Learning | Processamento de Linguagem Natural | Filosofia ",
+  message: " Ciência de Dados | Machine Learning | Deep Learning | Processamento de Linguagem Natural",
   icons: [
     {
       image: "fa-github",
